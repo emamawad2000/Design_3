@@ -83,7 +83,7 @@ ul {
 }
 .main-title:hover::before {
   z-index: -1;
-  animation: left-move .75s linear forwards;
+  animation: left-move 0.75s linear forwards;
 }
 .main-title:hover::after {
   z-index: -1;
@@ -1254,7 +1254,6 @@ ul {
   padding: 20px;
   background-color: #f4f4f4;
   font-weight: bold;
-
 }
 .videos .holder .list ul li {
   padding: 20px;
@@ -1288,7 +1287,6 @@ ul {
 }
 
 /*end videos*/
-  
 
 /* Start Stats */
 .stats {
@@ -1298,7 +1296,6 @@ ul {
   background-image: url("../images/stats.jpg");
   background-size: cover;
   min-height: 300px;
-  
 }
 .stats::before {
   content: "";
@@ -1367,7 +1364,6 @@ ul {
   font-weight: bold;
 }
 /* End Stats */
-
 
 /* Start Discount */
 .discount {
